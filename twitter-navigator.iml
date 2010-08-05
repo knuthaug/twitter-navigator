@@ -9,6 +9,62 @@
       </configuration>
     </facet>
   </component>
+  <component name="GemRequirementsHolder" version="3">
+    <requirement>
+      <requirement>
+        <dependency name="capybara" version="0" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="cucumber" version="0" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="cucumber-rails" version="0" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="database_cleaner" version="0" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="httparty" version="0" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="launchy" version="0" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="rails" version="3.0.0.rc" bound="EQUAL" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="rspec-rails" version="0" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="spork" version="0" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+  </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
