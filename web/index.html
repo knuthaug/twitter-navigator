@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <title>twitter navigator</title>
     <link rel="stylesheet" href="css/styles.css" style type="text/css" media="screen">
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jit-yc.js"></script>
+    <script type="text/javascript" src="js/twitnavi.js"></script>
 
   </head>
   
@@ -15,10 +17,20 @@
             <span class="big">@</span><input type="text" id="username" onclick="jquery" size="50"/> 
         </form>
 
+        <table id="holder">
+            <tr>
+                <td>
+                    <canvas id="network" width="800" height="600">
+                        You need canvas support! That means either Firefox 3, Chrome 4, Opera 10 or Safari 4 or higher.
+                    </canvas>
+                </td>
+                <td>
+                    <textarea id="log" rows="41"></textarea>
 
-        <canvas id="network" width="800" height="600">
-            You need canvas support! That means either Firefox 3, Chrome 4, Opera 10 or Safari 4 or higher. 
-        </canvas>
+                </td>
+            </tr>
+        </table>
+
 
 
     </div>

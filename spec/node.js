@@ -5,6 +5,6 @@ require('unit/spec.helper')
 require('twitnavi')
 
 JSpec
-  .exec('spec/unit/spec.js')
+  .exec('spec/unit/user_lookup_spec.js')
   .run({ reporter: JSpec.reporters.Terminal, fixturePath: 'spec/fixtures', failuresOnly: true })
   .report()

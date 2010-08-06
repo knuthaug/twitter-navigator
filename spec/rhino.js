@@ -5,6 +5,6 @@ load('lib/twitnavi.js')
 load('spec/unit/spec.helper.js')
 
 JSpec
-.exec('spec/unit/spec.js')
+.exec('spec/unit/user_lookup_spec.js')
 .run({ reporter: JSpec.reporters.Terminal, fixturePath: 'spec/fixtures' })
 .report()
