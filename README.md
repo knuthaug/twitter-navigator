@@ -1,1 +1,3 @@
-Twitter demo app with restful neo4j and rails 3.
+Twitter network explorer in pure javascript with jquery, Jit and Canvas.
+
+Knut Haugen 2010-08-06
