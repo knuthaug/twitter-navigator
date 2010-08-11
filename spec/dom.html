@@ -3,12 +3,16 @@
 		<link type="text/css" rel="stylesheet" href="/Users/knuthaug/.rvm/gems/ruby-1.9.2-rc2/gems/jspec-4.3.3/lib/jspec.css" />
 		<script src="/Users/knuthaug/.rvm/gems/ruby-1.9.2-rc2/gems/jspec-4.3.3/lib/jspec.js"></script>
 		<script src="/Users/knuthaug/.rvm/gems/ruby-1.9.2-rc2/gems/jspec-4.3.3/lib/jspec.xhr.js"></script>
-		<script src="../lib/twitnavi.js"></script>
+		<script src="../web/js/jit-yc.js"></script>
+		<script src="../lib/twitter.js"></script>
+		<script src="../lib/neostore.js"></script>
+		<script src="../lib/node.js"></script>
+		<script src="../lib/network.js"></script>
 		<script src="unit/spec.helper.js"></script>
 		<script>
 			function runSuites() {
 				JSpec
-				.exec('unit/user_lookup_spec.js')
+				.exec('unit/twitter.spec.js')
 				.run({ fixturePath: 'fixtures' })
 				.report()
 			}
