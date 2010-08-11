@@ -13,7 +13,8 @@
 			function runSuites() {
 				JSpec
 				.exec('unit/twitter.spec.js')
-				.run({ fixturePath: 'fixtures' })
+                .exec('unit/neostore.spec.js')
+				.run({ failuresOnly: true, fixturePath: 'fixtures' })
 				.report()
 			}
 		</script>
